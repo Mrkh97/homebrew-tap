@@ -45,3 +45,23 @@ Then open Light Key from your Applications folder, allow Accessibility when macO
 If you installed Light Key by hand before, add `--force` the first time so Homebrew can replace that copy.
 
 Needs macOS 14 Sonoma or later, on Apple silicon or Intel. Light Key is signed with a Developer ID and notarized by Apple, and the cask is updated automatically whenever a new release is published.
+
+## LightTrail
+
+Your mouse leaves a trail of crackling lightning that fades away in under half a second, with forked bolts, sparks and nine colors. See the [project page](https://github.com/Mrkh97/light-trail) for what it does.
+
+```sh
+brew install --cask mrkh97/tap/lighttrail
+```
+
+Then open LightTrail from your Applications folder, move your mouse, and look for the bolt in the menu bar.
+
+| | |
+|---|---|
+| Update | `brew upgrade --cask lighttrail` |
+| Uninstall | `brew uninstall --cask lighttrail` |
+| Uninstall and forget its settings | `brew uninstall --cask --zap lighttrail` |
+
+If you installed LightTrail by hand before, add `--force` the first time so Homebrew can replace that copy.
+
+Needs macOS 13 Ventura or later, on Apple silicon or Intel. LightTrail is signed with a Developer ID and notarized by Apple, and the cask is updated automatically whenever a new release is published.
