@@ -23,5 +23,5 @@ Needs macOS 14 Sonoma or later, on Apple silicon or Intel.
 ### Notes
 
 - The cask is called `mochi-cat` because `mochi` in Homebrew is an unrelated flashcards app.
-- Mochi isn't notarized by Apple yet, so after installing, the cask clears the quarantine flag macOS puts on downloads. Without that, macOS refuses to open the app the first time. You can read exactly what it does in [`Casks/mochi-cat.rb`](Casks/mochi-cat.rb).
+- Mochi is signed with a Developer ID and notarized by Apple, so it opens like any other downloaded app.
 - The cask is updated automatically whenever a new Mochi release is published.

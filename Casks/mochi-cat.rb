@@ -16,11 +16,6 @@ cask "mochi-cat" do
 
   app "Mochi.app"
 
-  # Mochi isn't notarized by Apple yet, so without this macOS refuses to open it the first time.
-  postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Mochi.app"]
-  end
-
   uninstall quit: "dev.mochi.desktopcat"
 
   zap trash: "~/Library/Preferences/dev.mochi.desktopcat.plist"
