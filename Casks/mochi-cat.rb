@@ -1,6 +1,6 @@
 cask "mochi-cat" do
-  version "1.0"
-  sha256 "ed0d00f076d1dd6416a63f9c3ce04cbe7e431182074f4bb192da20cedc263870"
+  version "1.0.1"
+  sha256 "817aa6ea89d1a1bbccef1f0ddb4eb618bff97e60badb7ced41b4ebe41a285e8a"
 
   url "https://github.com/Mrkh97/mochi/releases/download/v#{version}/Mochi.zip"
   name "Mochi"
