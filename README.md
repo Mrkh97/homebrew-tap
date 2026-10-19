@@ -25,3 +25,23 @@ Needs macOS 14 Sonoma or later, on Apple silicon or Intel.
 - The cask is called `mochi-cat` because `mochi` in Homebrew is an unrelated flashcards app.
 - Mochi is signed with a Developer ID and notarized by Apple, so it opens like any other downloaded app.
 - The cask is updated automatically whenever a new Mochi release is published.
+
+## Light Key
+
+A tiny lightning bolt strikes every character you type, anywhere on your Mac, and the word you're typing gets electrocuted. See the [project page](https://github.com/Mrkh97/light-key) for how it works.
+
+```sh
+brew install --cask mrkh97/tap/light-key
+```
+
+Then open Light Key from your Applications folder, allow Accessibility when macOS asks, and look for ⚡ in the menu bar.
+
+| | |
+|---|---|
+| Update | `brew upgrade --cask light-key` |
+| Uninstall | `brew uninstall --cask light-key` |
+| Uninstall and forget its settings | `brew uninstall --cask --zap light-key` |
+
+If you installed Light Key by hand before, add `--force` the first time so Homebrew can replace that copy.
+
+Needs macOS 14 Sonoma or later, on Apple silicon or Intel. Light Key is signed with a Developer ID and notarized by Apple, and the cask is updated automatically whenever a new release is published.
